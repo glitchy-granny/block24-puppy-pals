@@ -1,0 +1,25 @@
+.container {
+  display: grid;
+  grid-template-columns: 1fr 2fr; /* Adjust the ratio between the list and detail view as needed */
+  gap: 20px; /* Space between the columns */
+  padding: 20px;
+}
+
+.puppies-list {
+  display: flex;
+  flex-direction: column;
+  gap: 10px; /* Space between each puppy name */
+}
+
+.featured-pup {
+  background-color: #f0f0f0;
+  padding: 20px;
+}
+
+.puppy-item {
+  padding: 5px;
+}
+
+.tricks-list {
+  margin-top: 20px;
+}
